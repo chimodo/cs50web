@@ -1,0 +1,33 @@
+h1 {
+    color: palevioletred;
+    text-align: center         
+}
+
+.special {
+    color: goldenrod;
+}
+
+div {
+    background-color: aliceblue;
+    width: 200px;
+    height: 200px;
+    /*box model simple as that!*/
+    padding: 20px; /*inner border*/
+    margin: 20px; /*outer border*/
+
+    /*fonts*/
+    /*font-family: Arial, sans-serif;*/
+    /*font-size: 20px;*/
+    font-weight: bold;
+}
+
+/*
+
+~Specificity in css~
+
+1) inline
+2) id
+3) class
+4) type
+
+*/
