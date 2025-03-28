@@ -15,7 +15,8 @@
             background-color: palevioletred;
             border-radius: 30px;
             font-family: 'Courier New', monospace;
-            margin: 20px;
+            margin: 30px;
+            display: block;
 
             
             
@@ -24,7 +25,7 @@
             border-color: pink;
             background-color: pink;
         }
-        div {
+        .wrapper {
             background-color: white;
             width: 250px;
             height: 280px;
@@ -36,8 +37,22 @@
         }
         body{
             background-color: aliceblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* .wrapper {
+            width: 200px;
+            background: aliceblue;
+        } */
+
+        .wrapper button {
+            display: block;
 
         }
+
 
         .center {
             margin: auto;
@@ -48,10 +63,10 @@
     </style>
 </head>
 <body>
-    <div class = "center">
-        <button >Click Me</button>
-        <button >Click Me</button>
-        <button >Click Me</button>
+    <div class = "wrapper">
+        <button class = "btn ">Click Me</button>
+        <button class = "btn ">Click Me</button>
+        <button class = "btn ">Click Me</button>
     </div>
 </body>
 </html>
