@@ -1,0 +1,65 @@
+.container {
+  background-color: white;
+  width: 250px;
+  height: 360px;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 2px 2px 4px grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+button {
+  height: 40px;
+  width: 212px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 5px;
+  color: white;
+  border: 0px;
+  border: none;
+  background-color: palevioletred;
+  display: block; }
+
+button:hover {
+  border-color: pink;
+  background-color: pink; }
+
+h1 {
+  font-weight: bold;
+  color: palevioletred; }
+
+input[type="radio"] {
+  accent-color: palevioletred;
+  background-color: pink;
+  border-color: pink; }
+
+.input-box {
+  height: 30px;
+  width: 200px;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 5px;
+  background-color: lightgrey;
+  border: none;
+  font-family: 'Courier New', monospace; }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+body {
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial; }
+
+* {
+  font-family: "Roboto", sans-serif; }
+
+/*# sourceMappingURL=styles.css.map */
